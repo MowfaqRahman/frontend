@@ -20,8 +20,7 @@ class PaymentApp extends StatelessWidget {
           seedColor: const Color(0xFF6366F1), // Modern Indigo
           primary: const Color(0xFF6366F1),
           secondary: const Color(0xFF10B981), // Emerald
-          surface: Colors.white,
-          background: const Color(0xFFF8FAFC),
+          surface: const Color(0xFFF8FAFC),
         ),
         textTheme: GoogleFonts.outfitTextTheme(),
         appBarTheme: AppBarTheme(

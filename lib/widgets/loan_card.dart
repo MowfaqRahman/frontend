@@ -27,7 +27,7 @@ class LoanCard extends StatelessWidget {
           borderRadius: BorderRadius.circular(24),
           gradient: LinearGradient(
             colors: [
-              Theme.of(context).colorScheme.primary.withOpacity(0.05),
+              Theme.of(context).colorScheme.primary.withValues(alpha: 0.05),
               Colors.white,
             ],
             begin: Alignment.topLeft,
@@ -35,7 +35,7 @@ class LoanCard extends StatelessWidget {
           ),
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withOpacity(0.03),
+              color: Colors.black.withValues(alpha: 0.03),
               blurRadius: 20,
               offset: const Offset(0, 10),
             ),
@@ -75,7 +75,7 @@ class LoanCard extends StatelessWidget {
                       color: Theme.of(context)
                           .colorScheme
                           .secondary
-                          .withOpacity(0.1),
+                          .withValues(alpha: 0.1),
                       borderRadius: BorderRadius.circular(20),
                     ),
                     child: Text(
