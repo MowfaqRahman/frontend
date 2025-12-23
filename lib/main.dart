@@ -34,11 +34,11 @@ class PaymentApp extends StatelessWidget {
           ),
           iconTheme: const IconThemeData(color: Color(0xFF1E293B)),
         ),
-        cardTheme: CardTheme(
+        cardTheme: CardThemeData(
           elevation: 0,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(24),
-            side: BorderSide(color: Colors.grey.shade200),
+            side: const BorderSide(color: Color(0xFFE2E8F0)),
           ),
           color: Colors.white,
         ),
