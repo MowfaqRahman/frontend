@@ -14,7 +14,7 @@ void main() {
     // Build our app and trigger a frame.
     await tester.pumpWidget(const PaymentApp());
 
-    // Verify that our app name is present.
-    expect(find.text('LoanPay'), findsOneWidget);
+    // Verify that our app name or home screen title is present.
+    expect(find.text('My Loans'), findsOneWidget);
   });
 }
